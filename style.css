@@ -1,0 +1,38 @@
+#boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  flex-basis: 100px;
+  height: 100px;
+  background: steelblue;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#btn {
+  background: #e1e1e1;
+  display: inline-block;
+  padding: 10px;
+
+  margin-top: 2rem;
+}
+
+#btn:hover {
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.btn-2 {
+  background: #e1e1e1;
+  display: inline-block;
+  padding: 10px;
+}
+.btn-2 {
+  cursor: pointer;
+}
